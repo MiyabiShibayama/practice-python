@@ -1,0 +1,25 @@
+## python-summary
+
+source ~/.vimrc
+
+- ifとwhileの違い
+    -if
+     >>spam = 0
+     >>if spam < 5:
+     >>   print('Hello,World!')
+     >>   spam = spam + 1
+    -while
+     >>spam = 0
+     >>while spam < 5:
+     >>   print('Hello,World!')
+     >>   spam = spam + 1
+ 'if文は繰り返しされずに、１度だけHello,World!が出力されるが、while文はspamが５になるまでHello,World!を出力し続ける。(Helloworld!(0)からはじまり、Hello,World!(4)でおわる。)'
+>
+>
+-whileループ
+     >>name  = '' #②でTrueにするために一度nameをからにする
+     >>while name != 'miyabi': #②　nameがmiyabiであればFalse
+     >>    print('あなたの名前を入力してください。')
+     >>    name = input() #入力
+     >>print('どうも!')
+
