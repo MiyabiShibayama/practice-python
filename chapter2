@@ -30,7 +30,7 @@ print ('False')
 # not (5 > 4)
 print('False')
 #not ((5 > 4) or (3 == 5))
-print('True')
+print('True')  #False(Trueをnotにしている)
 # (True and True) and (True == False)
 print('False')
 # (not False) or (not True)
@@ -38,11 +38,11 @@ print('True')
 
 # 2-5
 # 比較演算子には６種類ありますが、それはなんですか？
-print('=, !=, <, >, <=, >=')
+print('=, !=, <, >, <=, >=') # ✗=　 ⭕==
 
 # 2-6
 # 等値比較演算子と代入演算子の違いはなに？
-print('値を比べるのと値を代入するの')
+print('値を比べるのと値を代入するの')　# ==は等値比較演算子であり、２つの値を比較してブール値を返します。=は代入演算子であり、変数に値を格納します
 
 # 2-7
 # 条件式とは？それはどこでつかう？
@@ -59,14 +59,14 @@ print('常に一つのブール値に評価されるもの　フロー制御文�
 #		print('ham')
 #	print('spam')
 # print('spam')
-print('spam = 0, if spam == 10, print('spam')')
+print('spam = 0, if spam == 10, print('spam')') # 3つのブロックはifのなかすべてと、print('bacon')とprint('ham')
 
 # 2-9
 # spamが1ならHello、spamが2ならHowdy、spamがそれ以外ならGreerings!と表示するコードを書きなさい
 spam = ''
-if spam = 1:
+if spam = 1: #　✗= ⭕==
 	print('Hello')
-ifelse spam = 2:
+ifelse spam = 2:  # ✗ ifelse ⭕ elif　✗= ⭕==
 	print('Howdy')
 else:
 	print('Greetings!')
@@ -77,7 +77,7 @@ pritn('Ctlr + C')
 
 # 2-11
 # breakとcontinueの違いはなにか
-print('breakに達するとプログラムは即座に終了するが、continueに達すると、プログラムは最初に戻る')
+print('breakに達するとプログラムは即座に終了するが、continueに達すると、プログラムは最初に戻る') #break文はループをぬけてループの次にプログラム実行を移します。continue文はループの先頭に移します。
 
 # 2-12
 # for ループでrange(10), range(0, 10), range(0, 10, 1)と書くときの違いはなんですか
@@ -87,12 +87,16 @@ print('range(0, 10, 1) : 0から10まで1ずつ増えていく')
 
 # 2-13
 # for ループを使って1から10までの数字を表示する短いプログラムを書きなさい。また、whileを用いて同様に1から10までの数字を表示するプログラムを書きなさい。
-for i in range (11)
-while i < 11
+for i in range (11) # for i in range (1, 11):
+                    #     print(i)
+while i < 11 # i = 1
+             # while i <= 10:
+             #      print(i)
+             #      i = i + 1
 
 # 2-14
 # spamという名前のモジュールにbacon()という名前に関数があるとすると、spamをインポートした後にどのように呼び出しますか
-print('spam = bacon')
+print('spam = bacon') #spam.bacon()のようによびだす
 
 # AQ
 # round() abs()
