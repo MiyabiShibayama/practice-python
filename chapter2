@@ -1,0 +1,100 @@
+# chapter2
+# p.56
+# 2.11
+
+# 2-1
+# ブール型の値には2つありますが、それは何ですか？どのように書きますか？
+print('True, False')
+
+# 2-2
+# ブール演算子には3つありますが、それは何ですか？
+print('not, and, or')
+
+# 2-3
+# 各ブール演算子の真偽表を書きなさい
+print('not : not True : False
+             not False : True')
+print('and : True and True ≡  True
+	     Falsa and True ≡  False
+             True and False ≡　False
+             False and False ≡　False')
+print('or : True or True ≡  True
+            False or True ≡　True
+            True or False ≡  True
+            False or False ≡　False')
+
+# 2-4
+# 以下の各式を評価せよ
+# (5 > 4) and (3 == 5)
+print ('False')
+# not (5 > 4)
+print('False')
+#not ((5 > 4) or (3 == 5))
+print('True')
+# (True and True) and (True == False)
+print('False')
+# (not False) or (not True)
+print('True')
+
+# 2-5
+# 比較演算子には６種類ありますが、それはなんですか？
+print('=, !=, <, >, <=, >=')
+
+# 2-6
+# 等値比較演算子と代入演算子の違いはなに？
+print('値を比べるのと値を代入するの')
+
+# 2-7
+# 条件式とは？それはどこでつかう？
+print('常に一つのブール値に評価されるもの　フロー制御文で使われる')
+
+# 2-8
+# 次のコードに含まれるブロックを３つあげなさい
+# spam = 0
+# if spam == 10:
+#	print('eggs')
+#	if spam > 5:
+#		print('bacon')
+#	else:
+#		print('ham')
+#	print('spam')
+# print('spam')
+print('spam = 0, if spam == 10, print('spam')')
+
+# 2-9
+# spamが1ならHello、spamが2ならHowdy、spamがそれ以外ならGreerings!と表示するコードを書きなさい
+spam = ''
+if spam = 1:
+	print('Hello')
+ifelse spam = 2:
+	print('Howdy')
+else:
+	print('Greetings!')
+
+# 2-10
+# プログラムが無限ループに陥ったら、どんなキーをおすのか
+pritn('Ctlr + C')
+
+# 2-11
+# breakとcontinueの違いはなにか
+print('breakに達するとプログラムは即座に終了するが、continueに達すると、プログラムは最初に戻る')
+
+# 2-12
+# for ループでrange(10), range(0, 10), range(0, 10, 1)と書くときの違いはなんですか
+print('range(10) : 0から順に10個の数字')
+print('range(0, 10 : 0から10未満の数字)')
+print('range(0, 10, 1) : 0から10まで1ずつ増えていく')
+
+# 2-13
+# for ループを使って1から10までの数字を表示する短いプログラムを書きなさい。また、whileを用いて同様に1から10までの数字を表示するプログラムを書きなさい。
+for i in range (11)
+while i < 11
+
+# 2-14
+# spamという名前のモジュールにbacon()という名前に関数があるとすると、spamをインポートした後にどのように呼び出しますか
+print('spam = bacon')
+
+# AQ
+# round() abs()
+print('round() : 偶数への丸め　round(2.346561, 3)>>>2.346')
+print('abs() : 絶対値の出力')
